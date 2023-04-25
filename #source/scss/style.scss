@@ -641,11 +641,15 @@ a.button {
 	}
 
 	.footer-copyright {
-		max-width: 27%;
+		max-width: 28%;
+
+		span {
+			text-transform: uppercase;
+		}
 	}
 
 	.footer-contacts {
-		max-width: 73%;
+		max-width: 72%;
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
@@ -667,15 +671,12 @@ a.button {
 					&:not(:last-child) {
 						margin-right: 38px;
 					}
-					a {
+
+					a, span {
 						display: flex;
 						align-items: center;
 						color: #C3C3C3;
 						transition: color ease .1s;
-
-					&:hover {
-						color: #fff
-					}
 
 						svg {
 							min-width: 20px;
@@ -684,6 +685,11 @@ a.button {
 							margin-right: 10px;
 						}
 					}
+
+					a {
+						color: #fff;
+					}
+
 				}
 				
 			}

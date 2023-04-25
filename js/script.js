@@ -66,7 +66,8 @@ $(document).ready(function() {
 				dropdownBtn.classList.remove('dropdown__button_active');
 				dropdownList.classList.remove('dropdown__list_visible');
 			}
-		}) 
+		})
+
 	});
 
 	$('.checkout-item-group-range input[name="count"]').change(function() {

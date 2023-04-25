@@ -654,10 +654,13 @@ a.button {
 	        align-items: center;
 }
 .footer .footer-copyright {
-	max-width: 27%;
+	max-width: 28%;
+}
+.footer .footer-copyright span {
+	text-transform: uppercase;
 }
 .footer .footer-contacts {
-	max-width: 73%;
+	max-width: 72%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -687,7 +690,7 @@ a.button {
 .footer .footer-contacts .footer-contacts-items ul li:not(:last-child) {
 	margin-right: 38px;
 }
-.footer .footer-contacts .footer-contacts-items ul li a {
+.footer .footer-contacts .footer-contacts-items ul li a, .footer .footer-contacts .footer-contacts-items ul li span {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -699,12 +702,12 @@ a.button {
 	-o-transition: color ease 0.1s;
 	transition: color ease 0.1s;
 }
-.footer .footer-contacts .footer-contacts-items ul li a:hover {
-	color: #fff;
-}
-.footer .footer-contacts .footer-contacts-items ul li a svg {
+.footer .footer-contacts .footer-contacts-items ul li a svg, .footer .footer-contacts .footer-contacts-items ul li span svg {
 	min-width: 20px;
 	max-width: 20px;
 	height: 20px;
 	margin-right: 10px;
+}
+.footer .footer-contacts .footer-contacts-items ul li a {
+	color: #fff;
 }

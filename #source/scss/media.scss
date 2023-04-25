@@ -98,7 +98,6 @@
 		.header-item {
 
 			.header-items-menu {
-				margin-left: auto;
 
 				ul {
 
@@ -223,13 +222,13 @@
 		.header-item {
 			.header-items-menu {
 				position: fixed;
-				top: 52px;
+				top: 64px;
 				right: 0;
 				height: 100%;
 				padding: 2rem 2rem 1rem 2rem;
 				background: rgba(16, 16, 29, 0.9);
 				transform: translateX(100%);
-				transition: transform ease .4s;
+				transition: transform, top ease .4s;
 
 				&.active {
 					transform: translateX(0);
@@ -251,6 +250,10 @@
 					}
 				}
 			}
+		}
+
+		&.active .header-items-menu {
+			top: 54px
 		}
 	}
 
@@ -296,6 +299,10 @@
 		.header-item {
 			.header-items__logo {
 				font-size: 18px;
+			}
+
+			.header-items-menu {
+				top: 52px;
 			}
 		}
 	}
