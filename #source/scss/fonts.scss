@@ -42,3 +42,14 @@
     font-weight: bold;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'LatoH';
+    src: url('../fonts/../fonts/Lato-Heavy.eot');
+    src: local('Lato Heavy'), local('Lato-Bold'),
+        url('../fonts/../fonts/Lato-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/../fonts/Lato-Heavy.woff') format('woff'),
+        url('../fonts/../fonts/Lato-Heavy.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
