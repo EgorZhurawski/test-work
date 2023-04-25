@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<!-- @import "link.html" -->
+
+</head>
+<body>
+	
+	<!-- @import "header.html" -->
+
+	<main>
+		<section>
+			<div class="home-banner">
+				<div class="container">
+					<div class="row">
+						<div class="home-banner-item">
+							<h1>
+								<span>Lorem ipsum</span> dolor sit amet consectetur <span>adipiscing</span>
+							</h1>
+
+							<p><strong>At vero eos et accusamus et iusto odio dignissimos ducimus!</strong></p>
+
+							<ul>
+								<li>Totam rem aperiam eaque ipsa</li>
+								<li>Sit voluptatem accusantium doloremque laudantium</li>
+								<li>Sed ut perspiciatis, unde omnis iste natus error</li>
+							</ul>
+
+							<a href="#" class="button">заказать</a>
+							<a href="#" class="button button-white">подробнее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="checkout">
+				<div class="container">
+					<div class="row">
+						<div class="checkout-item">
+							<div class="checkout-item-header">
+								<h2 class="title">Оформление <span>Заказа</span></h2>
+								<p>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
+							</div>
+							<ul class="checkout-item-list">
+								<li>
+									<div class="checkout-item-list__ico">
+										<svg role="img"><use xlink:href="#svg-search"/></svg>
+									</div>
+									<div class="checkout-item-list__caption">
+										Lorem ipsum dolor sit amet
+									</div>
+								</li>
+								<li>
+									<div class="checkout-item-list__ico">
+										<svg role="img"><use xlink:href="#svg-procent"/></svg>
+									</div>
+									<div class="checkout-item-list__caption">
+										Сonsecteturadipiscing elit
+									</div>
+								</li>
+								<li>
+									<div class="checkout-item-list__ico">
+										<svg role="img"><use xlink:href="#svg-document-add"/></svg>
+									</div>
+									<div class="checkout-item-list__caption">
+										Sed do eiusmod tempor
+									</div>
+								</li>
+								<li>
+									<div class="checkout-item-list__ico">
+										<svg role="img"><use xlink:href="#svg-email"/></svg>
+									</div>
+									<div class="checkout-item-list__caption">
+										Esse cillum dolore eu fugiat
+									</div>
+								</li>
+								<li>
+									<div class="checkout-item-list__ico">
+										<svg role="img"><use xlink:href="#svg-money"/></svg>
+									</div>
+									<div class="checkout-item-list__caption">
+										Excepteur sint occaecat cupidatat non proident
+									</div>
+								</li>
+							</ul>
+
+							<form action="" method="POST" oninput="result.value = count.value + ' %'">
+								<div class="checkout-item-group">
+									<div class="dropdown"> 
+										<button class="dropdown__button" type="button">Выберите тип системы</button>
+										<ul class="dropdown__list"> 
+											<li class="dropdown__list-item" data-value="Sed ut perspiciatis">Sed ut perspiciatis</li>
+											<li class="dropdown__list-item" data-value="Nemo enim ipsam">Nemo enim ipsam</li>
+											<li class="dropdown__list-item" data-value="Et harum quidem">Et harum quidem</li>
+											<li class="dropdown__list-item" data-value="Temporibus autem">Temporibus autem</li>
+											<li class="dropdown__list-item" data-value="Itaque earum rerum">Itaque earum rerum</li>
+										</ul>
+										<input class="dropdown__input_hidden" type="text" name="select-category" value=""/>
+									</div>
+								</div>
+								<div class="checkout-item-group">
+									<input type="email" name="email" placeholder="Ваш e-mail">
+								</div>
+								<div class="checkout-item-group">
+									<input type="text" name="name" placeholder="Ваше имя">
+								</div>
+								<div class="checkout-item-group-range">
+									<div class="checkout-item-group-range__label">
+										<span>Sed ut perspiciatis, unde omnis iste natus <output name="result">75 %</output></span>
+									</div>
+									<input type="range" name="count" min="0" max="100" value="75">
+								</div>
+								<div class="checkout-item-group-file">
+									<input type="file" name="file" id="file" accept="">
+									<label for="file">
+										<svg role="img"><use xlink:href="#svg-document"/></svg> Прикрепить файл
+									</label>
+								</div>
+								<div class="checkout-item-group-btn">
+									<button type="submit" class="button">Отправить</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- @import "footer.html" -->
+	
+
+	<!-- @import "script.html" -->
+</body>
+</html>
